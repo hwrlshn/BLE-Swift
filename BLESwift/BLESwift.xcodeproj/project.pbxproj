@@ -7,93 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FEB986EF2BD9933E006B6D1F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB986EE2BD9933E006B6D1F /* Coordinator.swift */; };
-		FEB986F22BD99467006B6D1F /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = FEB986F12BD99467006B6D1F /* Swinject */; };
-		FEB986F42BD99467006B6D1F /* Swinject-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = FEB986F32BD99467006B6D1F /* Swinject-Dynamic */; };
-		FEB986F82BD99688006B6D1F /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB986F72BD99688006B6D1F /* AppCoordinator.swift */; };
-		FEB986FB2BD99A9A006B6D1F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB986FA2BD99A9A006B6D1F /* Operators.swift */; };
-		FEB986FD2BD99E65006B6D1F /* AppDelegate + Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB986FC2BD99E65006B6D1F /* AppDelegate + Setup.swift */; };
-		FECAFD142BD98424006945CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECAFD132BD98424006945CE /* AppDelegate.swift */; };
-		FECAFD1D2BD98425006945CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FECAFD1C2BD98425006945CE /* Assets.xcassets */; };
-		FECAFD202BD98425006945CE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FECAFD1F2BD98425006945CE /* Base */; };
+		FE633F0D2BDF1EC6000BDD3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE633F0C2BDF1EC6000BDD3E /* AppDelegate.swift */; };
+		FE633F0F2BDF1EC6000BDD3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE633F0E2BDF1EC6000BDD3E /* SceneDelegate.swift */; };
+		FE633F112BDF1EC6000BDD3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE633F102BDF1EC6000BDD3E /* ViewController.swift */; };
+		FE633F142BDF1EC6000BDD3E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FE633F132BDF1EC6000BDD3E /* Base */; };
+		FE633F162BDF1EC7000BDD3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE633F152BDF1EC7000BDD3E /* Assets.xcassets */; };
+		FE633F192BDF1EC7000BDD3E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FE633F182BDF1EC7000BDD3E /* Base */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FEB986EE2BD9933E006B6D1F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		FEB986F72BD99688006B6D1F /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		FEB986FA2BD99A9A006B6D1F /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
-		FEB986FC2BD99E65006B6D1F /* AppDelegate + Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate + Setup.swift"; sourceTree = "<group>"; };
-		FECAFD102BD98424006945CE /* BLESwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLESwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FECAFD132BD98424006945CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FECAFD1C2BD98425006945CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FECAFD1F2BD98425006945CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FECAFD212BD98425006945CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE633F092BDF1EC6000BDD3E /* BLESwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLESwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE633F0C2BDF1EC6000BDD3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE633F0E2BDF1EC6000BDD3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE633F102BDF1EC6000BDD3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE633F132BDF1EC6000BDD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE633F152BDF1EC7000BDD3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE633F182BDF1EC7000BDD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE633F1A2BDF1EC7000BDD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FECAFD0D2BD98424006945CE /* Frameworks */ = {
+		FE633F062BDF1EC6000BDD3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEB986F22BD99467006B6D1F /* Swinject in Frameworks */,
-				FEB986F42BD99467006B6D1F /* Swinject-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FEB986EC2BD9911B006B6D1F /* Supporting Files */ = {
+		FE633F002BDF1EC6000BDD3E = {
 			isa = PBXGroup;
 			children = (
-				FEB986EE2BD9933E006B6D1F /* Coordinator.swift */,
-				FEB986FA2BD99A9A006B6D1F /* Operators.swift */,
-				FEB986FC2BD99E65006B6D1F /* AppDelegate + Setup.swift */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FEB986F52BD9957D006B6D1F /* Scenarios */ = {
-			isa = PBXGroup;
-			children = (
-				FEB986F62BD995F7006B6D1F /* Common */,
-			);
-			path = Scenarios;
-			sourceTree = "<group>";
-		};
-		FEB986F62BD995F7006B6D1F /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				FECAFD1E2BD98425006945CE /* LaunchScreen.storyboard */,
-				FEB986F72BD99688006B6D1F /* AppCoordinator.swift */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		FECAFD072BD98424006945CE = {
-			isa = PBXGroup;
-			children = (
-				FECAFD122BD98424006945CE /* BLESwift */,
-				FECAFD112BD98424006945CE /* Products */,
+				FE633F0B2BDF1EC6000BDD3E /* BLESwift */,
+				FE633F0A2BDF1EC6000BDD3E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FECAFD112BD98424006945CE /* Products */ = {
+		FE633F0A2BDF1EC6000BDD3E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FECAFD102BD98424006945CE /* BLESwift.app */,
+				FE633F092BDF1EC6000BDD3E /* BLESwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FECAFD122BD98424006945CE /* BLESwift */ = {
+		FE633F0B2BDF1EC6000BDD3E /* BLESwift */ = {
 			isa = PBXGroup;
 			children = (
-				FECAFD132BD98424006945CE /* AppDelegate.swift */,
-				FEB986F52BD9957D006B6D1F /* Scenarios */,
-				FEB986EC2BD9911B006B6D1F /* Supporting Files */,
-				FECAFD1C2BD98425006945CE /* Assets.xcassets */,
-				FECAFD212BD98425006945CE /* Info.plist */,
+				FE633F0C2BDF1EC6000BDD3E /* AppDelegate.swift */,
+				FE633F0E2BDF1EC6000BDD3E /* SceneDelegate.swift */,
+				FE633F102BDF1EC6000BDD3E /* ViewController.swift */,
+				FE633F122BDF1EC6000BDD3E /* Main.storyboard */,
+				FE633F152BDF1EC7000BDD3E /* Assets.xcassets */,
+				FE633F172BDF1EC7000BDD3E /* LaunchScreen.storyboard */,
+				FE633F1A2BDF1EC7000BDD3E /* Info.plist */,
 			);
 			path = BLESwift;
 			sourceTree = "<group>";
@@ -101,43 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FECAFD0F2BD98424006945CE /* BLESwift */ = {
+		FE633F082BDF1EC6000BDD3E /* BLESwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FECAFD242BD98425006945CE /* Build configuration list for PBXNativeTarget "BLESwift" */;
+			buildConfigurationList = FE633F1D2BDF1EC7000BDD3E /* Build configuration list for PBXNativeTarget "BLESwift" */;
 			buildPhases = (
-				FECAFD0C2BD98424006945CE /* Sources */,
-				FECAFD0D2BD98424006945CE /* Frameworks */,
-				FECAFD0E2BD98424006945CE /* Resources */,
+				FE633F052BDF1EC6000BDD3E /* Sources */,
+				FE633F062BDF1EC6000BDD3E /* Frameworks */,
+				FE633F072BDF1EC6000BDD3E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BLESwift;
-			packageProductDependencies = (
-				FEB986F12BD99467006B6D1F /* Swinject */,
-				FEB986F32BD99467006B6D1F /* Swinject-Dynamic */,
-			);
 			productName = BLESwift;
-			productReference = FECAFD102BD98424006945CE /* BLESwift.app */;
+			productReference = FE633F092BDF1EC6000BDD3E /* BLESwift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FECAFD082BD98424006945CE /* Project object */ = {
+		FE633F012BDF1EC6000BDD3E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					FECAFD0F2BD98424006945CE = {
+					FE633F082BDF1EC6000BDD3E = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = FECAFD0B2BD98424006945CE /* Build configuration list for PBXProject "BLESwift" */;
+			buildConfigurationList = FE633F042BDF1EC6000BDD3E /* Build configuration list for PBXProject "BLESwift" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,52 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = FECAFD072BD98424006945CE;
-			packageReferences = (
-				FEB986F02BD99467006B6D1F /* XCRemoteSwiftPackageReference "Swinject" */,
-				FEB986F92BD999DF006B6D1F /* XCRemoteSwiftPackageReference "RxSwift" */,
-			);
-			productRefGroup = FECAFD112BD98424006945CE /* Products */;
+			mainGroup = FE633F002BDF1EC6000BDD3E;
+			productRefGroup = FE633F0A2BDF1EC6000BDD3E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FECAFD0F2BD98424006945CE /* BLESwift */,
+				FE633F082BDF1EC6000BDD3E /* BLESwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FECAFD0E2BD98424006945CE /* Resources */ = {
+		FE633F072BDF1EC6000BDD3E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FECAFD1D2BD98425006945CE /* Assets.xcassets in Resources */,
-				FECAFD202BD98425006945CE /* Base in Resources */,
+				FE633F162BDF1EC7000BDD3E /* Assets.xcassets in Resources */,
+				FE633F192BDF1EC7000BDD3E /* Base in Resources */,
+				FE633F142BDF1EC6000BDD3E /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FECAFD0C2BD98424006945CE /* Sources */ = {
+		FE633F052BDF1EC6000BDD3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEB986EF2BD9933E006B6D1F /* Coordinator.swift in Sources */,
-				FEB986F82BD99688006B6D1F /* AppCoordinator.swift in Sources */,
-				FECAFD142BD98424006945CE /* AppDelegate.swift in Sources */,
-				FEB986FD2BD99E65006B6D1F /* AppDelegate + Setup.swift in Sources */,
-				FEB986FB2BD99A9A006B6D1F /* Operators.swift in Sources */,
+				FE633F112BDF1EC6000BDD3E /* ViewController.swift in Sources */,
+				FE633F0D2BDF1EC6000BDD3E /* AppDelegate.swift in Sources */,
+				FE633F0F2BDF1EC6000BDD3E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FECAFD1E2BD98425006945CE /* LaunchScreen.storyboard */ = {
+		FE633F122BDF1EC6000BDD3E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FECAFD1F2BD98425006945CE /* Base */,
+				FE633F132BDF1EC6000BDD3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE633F172BDF1EC7000BDD3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE633F182BDF1EC7000BDD3E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -198,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FECAFD222BD98425006945CE /* Debug */ = {
+		FE633F1B2BDF1EC7000BDD3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,7 +229,7 @@
 			};
 			name = Debug;
 		};
-		FECAFD232BD98425006945CE /* Release */ = {
+		FE633F1C2BDF1EC7000BDD3E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -317,7 +285,7 @@
 			};
 			name = Release;
 		};
-		FECAFD252BD98425006945CE /* Debug */ = {
+		FE633F1E2BDF1EC7000BDD3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -328,10 +296,9 @@
 				INFOPLIST_FILE = BLESwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,17 +306,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = hwrlshn.BLESwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		FECAFD262BD98425006945CE /* Release */ = {
+		FE633F1F2BDF1EC7000BDD3E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -360,10 +323,9 @@
 				INFOPLIST_FILE = BLESwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -371,70 +333,34 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = hwrlshn.BLESwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FECAFD0B2BD98424006945CE /* Build configuration list for PBXProject "BLESwift" */ = {
+		FE633F042BDF1EC6000BDD3E /* Build configuration list for PBXProject "BLESwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FECAFD222BD98425006945CE /* Debug */,
-				FECAFD232BD98425006945CE /* Release */,
+				FE633F1B2BDF1EC7000BDD3E /* Debug */,
+				FE633F1C2BDF1EC7000BDD3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FECAFD242BD98425006945CE /* Build configuration list for PBXNativeTarget "BLESwift" */ = {
+		FE633F1D2BDF1EC7000BDD3E /* Build configuration list for PBXNativeTarget "BLESwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FECAFD252BD98425006945CE /* Debug */,
-				FECAFD262BD98425006945CE /* Release */,
+				FE633F1E2BDF1EC7000BDD3E /* Debug */,
+				FE633F1F2BDF1EC7000BDD3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		FEB986F02BD99467006B6D1F /* XCRemoteSwiftPackageReference "Swinject" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Swinject/Swinject.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.8.7;
-			};
-		};
-		FEB986F92BD999DF006B6D1F /* XCRemoteSwiftPackageReference "RxSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveX/RxSwift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.7.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		FEB986F12BD99467006B6D1F /* Swinject */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FEB986F02BD99467006B6D1F /* XCRemoteSwiftPackageReference "Swinject" */;
-			productName = Swinject;
-		};
-		FEB986F32BD99467006B6D1F /* Swinject-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FEB986F02BD99467006B6D1F /* XCRemoteSwiftPackageReference "Swinject" */;
-			productName = "Swinject-Dynamic";
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = FECAFD082BD98424006945CE /* Project object */;
+	rootObject = FE633F012BDF1EC6000BDD3E /* Project object */;
 }
