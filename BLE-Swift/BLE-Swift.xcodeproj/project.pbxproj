@@ -7,27 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE633F0D2BDF1EC6000BDD3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE633F0C2BDF1EC6000BDD3E /* AppDelegate.swift */; };
-		FE633F0F2BDF1EC6000BDD3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE633F0E2BDF1EC6000BDD3E /* SceneDelegate.swift */; };
-		FE633F112BDF1EC6000BDD3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE633F102BDF1EC6000BDD3E /* ViewController.swift */; };
-		FE633F142BDF1EC6000BDD3E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FE633F132BDF1EC6000BDD3E /* Base */; };
-		FE633F162BDF1EC7000BDD3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE633F152BDF1EC7000BDD3E /* Assets.xcassets */; };
-		FE633F192BDF1EC7000BDD3E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FE633F182BDF1EC7000BDD3E /* Base */; };
+		FE66804C2BE14A9B00C62F6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66804B2BE14A9B00C62F6C /* AppDelegate.swift */; };
+		FE6680552BE14A9C00C62F6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6680542BE14A9C00C62F6C /* Assets.xcassets */; };
+		FE6680582BE14A9C00C62F6C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FE6680572BE14A9C00C62F6C /* Base */; };
+		FE6680602BE14FD500C62F6C /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66805F2BE14FD500C62F6C /* DevicesViewController.swift */; };
+		FE6680622BE1502C00C62F6C /* BLEScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6680612BE1502C00C62F6C /* BLEScanner.swift */; };
+		FE6680642BE1504300C62F6C /* PeripheralModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6680632BE1504300C62F6C /* PeripheralModel.swift */; };
+		FE6680662BE1505400C62F6C /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6680652BE1505400C62F6C /* ServiceModel.swift */; };
+		FE6680682BE1506100C62F6C /* CharacteristicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6680672BE1506100C62F6C /* CharacteristicModel.swift */; };
+		FE66806D2BE1573700C62F6C /* DeviceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE66806C2BE1573700C62F6C /* DeviceCell.xib */; };
+		FE66806E2BE1573700C62F6C /* DeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66806B2BE1573700C62F6C /* DeviceCell.swift */; };
+		FE6680782BE1913600C62F6C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6680772BE1913600C62F6C /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FE633F092BDF1EC6000BDD3E /* BLESwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLESwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE633F0C2BDF1EC6000BDD3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE633F0E2BDF1EC6000BDD3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FE633F102BDF1EC6000BDD3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FE633F132BDF1EC6000BDD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FE633F152BDF1EC7000BDD3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FE633F182BDF1EC7000BDD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FE633F1A2BDF1EC7000BDD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6680482BE14A9B00C62F6C /* BLE-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLE-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE66804B2BE14A9B00C62F6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE6680542BE14A9C00C62F6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE6680572BE14A9C00C62F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE6680592BE14A9C00C62F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE66805F2BE14FD500C62F6C /* DevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
+		FE6680612BE1502C00C62F6C /* BLEScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEScanner.swift; sourceTree = "<group>"; };
+		FE6680632BE1504300C62F6C /* PeripheralModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralModel.swift; sourceTree = "<group>"; };
+		FE6680652BE1505400C62F6C /* ServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceModel.swift; sourceTree = "<group>"; };
+		FE6680672BE1506100C62F6C /* CharacteristicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteristicModel.swift; sourceTree = "<group>"; };
+		FE66806B2BE1573700C62F6C /* DeviceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCell.swift; sourceTree = "<group>"; };
+		FE66806C2BE1573700C62F6C /* DeviceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceCell.xib; sourceTree = "<group>"; };
+		FE6680772BE1913600C62F6C /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FE633F062BDF1EC6000BDD3E /* Frameworks */ = {
+		FE6680452BE14A9B00C62F6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +47,133 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FE633F002BDF1EC6000BDD3E = {
+		FE66803F2BE14A9B00C62F6C = {
 			isa = PBXGroup;
 			children = (
-				FE633F0B2BDF1EC6000BDD3E /* BLESwift */,
-				FE633F0A2BDF1EC6000BDD3E /* Products */,
+				FE66804A2BE14A9B00C62F6C /* BLE-Swift */,
+				FE6680492BE14A9B00C62F6C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FE633F0A2BDF1EC6000BDD3E /* Products */ = {
+		FE6680492BE14A9B00C62F6C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE633F092BDF1EC6000BDD3E /* BLESwift.app */,
+				FE6680482BE14A9B00C62F6C /* BLE-Swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FE633F0B2BDF1EC6000BDD3E /* BLESwift */ = {
+		FE66804A2BE14A9B00C62F6C /* BLE-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				FE633F0C2BDF1EC6000BDD3E /* AppDelegate.swift */,
-				FE633F0E2BDF1EC6000BDD3E /* SceneDelegate.swift */,
-				FE633F102BDF1EC6000BDD3E /* ViewController.swift */,
-				FE633F122BDF1EC6000BDD3E /* Main.storyboard */,
-				FE633F152BDF1EC7000BDD3E /* Assets.xcassets */,
-				FE633F172BDF1EC7000BDD3E /* LaunchScreen.storyboard */,
-				FE633F1A2BDF1EC7000BDD3E /* Info.plist */,
+				FE66804B2BE14A9B00C62F6C /* AppDelegate.swift */,
+				FE6680732BE18A0800C62F6C /* Scenarios */,
+				FE6680722BE1892300C62F6C /* Supporting Files */,
+				FE66806A2BE1541100C62F6C /* Services */,
+				FE6680692BE1512400C62F6C /* Models */,
 			);
-			path = BLESwift;
+			path = "BLE-Swift";
+			sourceTree = "<group>";
+		};
+		FE6680692BE1512400C62F6C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE6680632BE1504300C62F6C /* PeripheralModel.swift */,
+				FE6680652BE1505400C62F6C /* ServiceModel.swift */,
+				FE6680672BE1506100C62F6C /* CharacteristicModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE66806A2BE1541100C62F6C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FE6680612BE1502C00C62F6C /* BLEScanner.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FE66806F2BE1853100C62F6C /* DeviceCell */ = {
+			isa = PBXGroup;
+			children = (
+				FE66806B2BE1573700C62F6C /* DeviceCell.swift */,
+				FE66806C2BE1573700C62F6C /* DeviceCell.xib */,
+			);
+			path = DeviceCell;
+			sourceTree = "<group>";
+		};
+		FE6680722BE1892300C62F6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE6680542BE14A9C00C62F6C /* Assets.xcassets */,
+				FE6680592BE14A9C00C62F6C /* Info.plist */,
+				FE6680562BE14A9C00C62F6C /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE6680732BE18A0800C62F6C /* Scenarios */ = {
+			isa = PBXGroup;
+			children = (
+				FE6680762BE1910200C62F6C /* Details */,
+				FE6680752BE18A1D00C62F6C /* Devices */,
+			);
+			path = Scenarios;
+			sourceTree = "<group>";
+		};
+		FE6680752BE18A1D00C62F6C /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				FE66806F2BE1853100C62F6C /* DeviceCell */,
+				FE66805F2BE14FD500C62F6C /* DevicesViewController.swift */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
+		FE6680762BE1910200C62F6C /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				FE6680772BE1913600C62F6C /* DetailsViewController.swift */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FE633F082BDF1EC6000BDD3E /* BLESwift */ = {
+		FE6680472BE14A9B00C62F6C /* BLE-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE633F1D2BDF1EC7000BDD3E /* Build configuration list for PBXNativeTarget "BLESwift" */;
+			buildConfigurationList = FE66805C2BE14A9C00C62F6C /* Build configuration list for PBXNativeTarget "BLE-Swift" */;
 			buildPhases = (
-				FE633F052BDF1EC6000BDD3E /* Sources */,
-				FE633F062BDF1EC6000BDD3E /* Frameworks */,
-				FE633F072BDF1EC6000BDD3E /* Resources */,
+				FE6680442BE14A9B00C62F6C /* Sources */,
+				FE6680452BE14A9B00C62F6C /* Frameworks */,
+				FE6680462BE14A9B00C62F6C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BLESwift;
-			productName = BLESwift;
-			productReference = FE633F092BDF1EC6000BDD3E /* BLESwift.app */;
+			name = "BLE-Swift";
+			productName = "BLE-Swift";
+			productReference = FE6680482BE14A9B00C62F6C /* BLE-Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FE633F012BDF1EC6000BDD3E /* Project object */ = {
+		FE6680402BE14A9B00C62F6C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					FE633F082BDF1EC6000BDD3E = {
+					FE6680472BE14A9B00C62F6C = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = FE633F042BDF1EC6000BDD3E /* Build configuration list for PBXProject "BLESwift" */;
+			buildConfigurationList = FE6680432BE14A9B00C62F6C /* Build configuration list for PBXProject "BLE-Swift" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +181,52 @@
 				en,
 				Base,
 			);
-			mainGroup = FE633F002BDF1EC6000BDD3E;
-			productRefGroup = FE633F0A2BDF1EC6000BDD3E /* Products */;
+			mainGroup = FE66803F2BE14A9B00C62F6C;
+			productRefGroup = FE6680492BE14A9B00C62F6C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE633F082BDF1EC6000BDD3E /* BLESwift */,
+				FE6680472BE14A9B00C62F6C /* BLE-Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FE633F072BDF1EC6000BDD3E /* Resources */ = {
+		FE6680462BE14A9B00C62F6C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE633F162BDF1EC7000BDD3E /* Assets.xcassets in Resources */,
-				FE633F192BDF1EC7000BDD3E /* Base in Resources */,
-				FE633F142BDF1EC6000BDD3E /* Base in Resources */,
+				FE6680552BE14A9C00C62F6C /* Assets.xcassets in Resources */,
+				FE6680582BE14A9C00C62F6C /* Base in Resources */,
+				FE66806D2BE1573700C62F6C /* DeviceCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FE633F052BDF1EC6000BDD3E /* Sources */ = {
+		FE6680442BE14A9B00C62F6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE633F112BDF1EC6000BDD3E /* ViewController.swift in Sources */,
-				FE633F0D2BDF1EC6000BDD3E /* AppDelegate.swift in Sources */,
-				FE633F0F2BDF1EC6000BDD3E /* SceneDelegate.swift in Sources */,
+				FE6680682BE1506100C62F6C /* CharacteristicModel.swift in Sources */,
+				FE6680662BE1505400C62F6C /* ServiceModel.swift in Sources */,
+				FE6680622BE1502C00C62F6C /* BLEScanner.swift in Sources */,
+				FE6680782BE1913600C62F6C /* DetailsViewController.swift in Sources */,
+				FE66806E2BE1573700C62F6C /* DeviceCell.swift in Sources */,
+				FE6680642BE1504300C62F6C /* PeripheralModel.swift in Sources */,
+				FE6680602BE14FD500C62F6C /* DevicesViewController.swift in Sources */,
+				FE66804C2BE14A9B00C62F6C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FE633F122BDF1EC6000BDD3E /* Main.storyboard */ = {
+		FE6680562BE14A9C00C62F6C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FE633F132BDF1EC6000BDD3E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FE633F172BDF1EC7000BDD3E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FE633F182BDF1EC7000BDD3E /* Base */,
+				FE6680572BE14A9C00C62F6C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +234,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FE633F1B2BDF1EC7000BDD3E /* Debug */ = {
+		FE66805A2BE14A9C00C62F6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +297,7 @@
 			};
 			name = Debug;
 		};
-		FE633F1C2BDF1EC7000BDD3E /* Release */ = {
+		FE66805B2BE14A9C00C62F6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,18 +353,19 @@
 			};
 			name = Release;
 		};
-		FE633F1E2BDF1EC7000BDD3E /* Debug */ = {
+		FE66805D2BE14A9C00C62F6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5C6Y689FA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BLESwift/Info.plist;
+				INFOPLIST_FILE = "BLE-Swift/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +373,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hwrlshn.BLESwift;
+				PRODUCT_BUNDLE_IDENTIFIER = "hwrlshn.BLE-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,18 +381,19 @@
 			};
 			name = Debug;
 		};
-		FE633F1F2BDF1EC7000BDD3E /* Release */ = {
+		FE66805E2BE14A9C00C62F6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5C6Y689FA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BLESwift/Info.plist;
+				INFOPLIST_FILE = "BLE-Swift/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -331,7 +401,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hwrlshn.BLESwift;
+				PRODUCT_BUNDLE_IDENTIFIER = "hwrlshn.BLE-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -342,25 +412,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FE633F042BDF1EC6000BDD3E /* Build configuration list for PBXProject "BLESwift" */ = {
+		FE6680432BE14A9B00C62F6C /* Build configuration list for PBXProject "BLE-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE633F1B2BDF1EC7000BDD3E /* Debug */,
-				FE633F1C2BDF1EC7000BDD3E /* Release */,
+				FE66805A2BE14A9C00C62F6C /* Debug */,
+				FE66805B2BE14A9C00C62F6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE633F1D2BDF1EC7000BDD3E /* Build configuration list for PBXNativeTarget "BLESwift" */ = {
+		FE66805C2BE14A9C00C62F6C /* Build configuration list for PBXNativeTarget "BLE-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE633F1E2BDF1EC7000BDD3E /* Debug */,
-				FE633F1F2BDF1EC7000BDD3E /* Release */,
+				FE66805D2BE14A9C00C62F6C /* Debug */,
+				FE66805E2BE14A9C00C62F6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FE633F012BDF1EC6000BDD3E /* Project object */;
+	rootObject = FE6680402BE14A9B00C62F6C /* Project object */;
 }
