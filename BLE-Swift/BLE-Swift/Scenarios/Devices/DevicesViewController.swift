@@ -7,15 +7,19 @@
 
 import UIKit
 
+protocol DistanceDelegate: AnyObject {
+    func passDistance(_ distance: Double)
+}
+
 class DevicesViewController: UITableViewController {
     
     weak var ble: BLEScanner?
+    weak var delegate: DistanceDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.title = "Devices"
         ble?.delegate = self
-        
         tableView.dataSource = self
         tableView.delegate = self
         tableView.register(
@@ -28,10 +32,6 @@ class DevicesViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let device = ble?.foundPeripheral[indexPath.row]
         ble?.connectPeripheral(device)
-    }
-    
-    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Devices"
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -49,16 +49,33 @@ class DevicesViewController: UITableViewController {
     
 }
 
+// MARK: - Distance Delegate -
+
+extension DevicesViewController: DistanceDelegate {
+    
+    func passDistance(_ distance: Double) {
+        delegate?.passDistance(distance)
+    }
+    
+}
+
 // MARK: - BLE Delegate -
 
 extension DevicesViewController: ScannerUpdate {
+    
+    func updateDistance(distance: Double) {
+        passDistance(distance)
+    }
     
     func updatePeripheral() {
         tableView.reloadData()
     }
     
-    func connectedDevice() {
-        
+    func connectedDevice(title: String) {
+        let vc = DetailsViewController()
+        vc.title = title
+        delegate = vc
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
 }
