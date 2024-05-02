@@ -10,7 +10,8 @@ import CoreBluetooth
 
 protocol ScannerUpdate {
     func updatePeripheral()
-    func connectedDevice()
+    func connectedDevice(title: String)
+    func updateDistance(distance: Double)
 }
 
 final class BLEScanner: NSObject, ObservableObject {
@@ -102,6 +103,7 @@ extension BLEScanner: CBCentralManagerDelegate  {
         rssiTimer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [weak self] timer in
             self?.connectedPeripheral?.peripheral.readRSSI()
         }
+        delegate?.connectedDevice(title: connectedPeripheral.deviceName)
     }
     
 }
@@ -110,8 +112,14 @@ extension BLEScanner: CBCentralManagerDelegate  {
 
 extension BLEScanner: CBPeripheralDelegate {
     
+    func centralManager(_ central: CBCentralManager, didDisconnectPeripheral peripheral: CBPeripheral, error: (any Error)?) {
+        rssiTimer?.invalidate()
+        rssiTimer = nil
+        calculateDistanceToDevice(rssi: 999999.0)
+    }
+    
     func peripheral(_ peripheral: CBPeripheral, didReadRSSI RSSI: NSNumber, error: (any Error)?) {
-        print(pow(10, ((-56 - RSSI.doubleValue) / (10 * 2))) * 3.2808)
+        calculateDistanceToDevice(rssi: RSSI)
     }
     
     func peripheral(_ peripheral: CBPeripheral, didDiscoverServices error: (any Error)?) {
@@ -161,6 +169,24 @@ private extension BLEScanner {
         scanTimer = Timer.scheduledTimer(withTimeInterval: 2.0, repeats: true) { [weak self] timer in
             self?.centralManager?.stopScan()
             self?.centralManager?.scanForPeripherals(withServices: nil, options: nil)
+        }
+    }
+    
+    func calculateDistanceToDevice(rssi: NSNumber) {
+        switch rssi {
+        case 999999.0:
+            delegate?.updateDistance(distance: 999999.0)
+        default:
+            let txPower = -59.0
+            let n = 2.0
+            let ratio = rssi.doubleValue / txPower
+            var distance: Double
+            if ratio < 1.0 {
+                distance = pow(ratio, 10)
+            } else {
+                distance = (0.89976) * pow(ratio, 7.7095) + 0.111
+            }
+            delegate?.updateDistance(distance: (distance * 100).rounded() / 100)
         }
     }
     

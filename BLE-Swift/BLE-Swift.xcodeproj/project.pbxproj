@@ -17,6 +17,7 @@
 		FE6680682BE1506100C62F6C /* CharacteristicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6680672BE1506100C62F6C /* CharacteristicModel.swift */; };
 		FE66806D2BE1573700C62F6C /* DeviceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE66806C2BE1573700C62F6C /* DeviceCell.xib */; };
 		FE66806E2BE1573700C62F6C /* DeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66806B2BE1573700C62F6C /* DeviceCell.swift */; };
+		FE6680782BE1913600C62F6C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6680772BE1913600C62F6C /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		FE6680672BE1506100C62F6C /* CharacteristicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteristicModel.swift; sourceTree = "<group>"; };
 		FE66806B2BE1573700C62F6C /* DeviceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCell.swift; sourceTree = "<group>"; };
 		FE66806C2BE1573700C62F6C /* DeviceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceCell.xib; sourceTree = "<group>"; };
+		FE6680772BE1913600C62F6C /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		FE6680732BE18A0800C62F6C /* Scenarios */ = {
 			isa = PBXGroup;
 			children = (
+				FE6680762BE1910200C62F6C /* Details */,
 				FE6680752BE18A1D00C62F6C /* Devices */,
 			);
 			path = Scenarios;
@@ -125,6 +128,14 @@
 				FE66805F2BE14FD500C62F6C /* DevicesViewController.swift */,
 			);
 			path = Devices;
+			sourceTree = "<group>";
+		};
+		FE6680762BE1910200C62F6C /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				FE6680772BE1913600C62F6C /* DetailsViewController.swift */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 				FE6680682BE1506100C62F6C /* CharacteristicModel.swift in Sources */,
 				FE6680662BE1505400C62F6C /* ServiceModel.swift in Sources */,
 				FE6680622BE1502C00C62F6C /* BLEScanner.swift in Sources */,
+				FE6680782BE1913600C62F6C /* DetailsViewController.swift in Sources */,
 				FE66806E2BE1573700C62F6C /* DeviceCell.swift in Sources */,
 				FE6680642BE1504300C62F6C /* PeripheralModel.swift in Sources */,
 				FE6680602BE14FD500C62F6C /* DevicesViewController.swift in Sources */,
